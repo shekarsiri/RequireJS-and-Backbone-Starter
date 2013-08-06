@@ -1,4 +1,4 @@
-r.js -o build/app.build.js
+r.js -o app/build/app.build.js
 cd ../dist
 mv scripts/vendor/requirejs/require.js require.js
 rm -rf scripts/vendor/* build scripts/views scripts/models scripts/collections build.txt
